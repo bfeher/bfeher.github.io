@@ -8,15 +8,21 @@ bodyStyle {
     font-size: 20px;
 }
 
-#wrap {
-   	width:335px;
+.wrap {
+   	width:440px;
 	margin-left: 20px;
 }
-#left_col {
-   	float:left;
-	width:250px;
+
+.column-left { 
+	float: left; 
+	width: 250px;
 }
-#right_col {
-  	float:right;
-	width:85px;
+.column-right { 
+	float: right; 
+	width: 85px; 
 }
+.column-center { 
+	display: inline-block; 
+	width: 85px; 
+}
+
