@@ -7,3 +7,16 @@ bodyStyle {
     font-family: "Helvetica-Light";
     font-size: 20px;
 }
+
+#wrap {
+   	width:335px;
+	margin-left: 20px;
+}
+#left_col {
+   	float:left;
+	width:250px;
+}
+#right_col {
+  	float:right;
+	width:85px;
+}
