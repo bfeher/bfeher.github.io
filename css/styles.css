@@ -27,3 +27,58 @@ bodyStyle {
 	width: 85px; 
 }
 
+
+.container{
+    display:table;
+    width:440;
+    border-collapse: collapse;
+	border: 1px solid #CCC;
+    background-color: rgba(255,255,255,0.9);
+}
+.iframeContainer{
+	position: relative;
+    margin: 10px auto 0 15px;
+    top: 50%; 
+    text-align:center;
+    /*background-color:#C91622;*/
+}
+.heading{
+	font-weight: bold;
+	display:table-row;
+    background-color:#C91622;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-family:georgia;
+    color:#fff; 
+}
+.table-row{  
+    display:table-row;
+	vertical-align: middle;
+	border: 0px solid #CCC;
+}
+.col{ 
+	display:table-cell;
+	border: 0px solid #CCC;
+	text-align: left;
+	vertical-align: middle;
+	float:bottom;
+}
+.col-pod{ 
+	display:table-cell;
+	border: 0px solid #CCC;
+	text-align: right;
+	vertical-align: middle;
+	width:250px;
+}
+.col-pod-badge{ 
+	display:table-cell;
+	border: 0px solid #CCC;
+	text-align: center;
+	vertical-align: middle;
+	width:100px;
+}
+
+body{
+    background-image: url("http://alterchan.net/var/src/a802699ccb3524b63239727292cd0f78.jpg");
+}
