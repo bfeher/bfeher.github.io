@@ -8,6 +8,12 @@ bodyStyle {
     font-size: 20px;
 }
 
+noSupportStyle {
+    font-family: "Helvetica-Light";
+    font-size: 16px;
+	color: red;
+}
+
 .wrap {
    	width:440px;
 	margin-left: 20px;
